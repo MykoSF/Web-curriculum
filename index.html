@@ -8,10 +8,10 @@
     <title>MyKo's curriculum</title>
     <style>
         body {
-            background-image: url(/Web-curriculum/Images/backgroundgalaxy.png) ;
-            background-size: cover cover ;
+            background-image: url(/Web-curriculum/Images/backgroundgalaxy.png);
+            background-size: cover cover;
             background-attachment: scroll;
-            background-repeat: no-repeat;
+            background-repeat: repeat;
         }
 
         h1 {
@@ -29,7 +29,7 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 25px ;
+            font-size: 25px;
             font-family: monospace;
         }
 
@@ -39,6 +39,11 @@
         }
 
         .topnav a.active {
+            background-color: #e1e0e0;
+            color: rgb(0, 0, 0);
+        }
+
+        .topnav-right a.active {
             background-color: #e1e0e0;
             color: rgb(0, 0, 0);
         }
@@ -65,54 +70,53 @@
         }
 
         #aba {
-        background: linear-gradient(to right, #141414, #3c3c3c);
-        color: rgb(255, 255, 255);
-        padding: 20px;
-        width: 600px;
-        height: fit-content;
-        overflow: auto;
-        border: 5px solid #606060;
-        font-family: monospace;
-        font-size: 20px;
-        border-radius: 5%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: justify;
-        text-justify: inter-word;
+            background: linear-gradient(to right, #141414, #3c3c3c);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            width: 600px;
+            height: fit-content;
+            overflow: auto;
+            border: 5px solid #606060;
+            font-family: monospace;
+            font-size: 20px;
+            border-radius: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+            text-justify: inter-word;
         }
 
         footer {
-        background: linear-gradient(to right, #141414, #3c3c3c);
-        color: #fff;
-        padding: 25px;
-        text-align: center;
-        font-size: 14px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        height: 80px;
+            background: linear-gradient(to right, #141414, #3c3c3c);
+            color: #fff;
+            padding: 25px;
+            text-align: center;
+            font-size: 14px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 80px;
 
         }
 
         footer a {
-        color: #fff;
-        text-decoration: none;
+            color: #fff;
+            text-decoration: none;
         }
 
         footer a:hover {
-        text-decoration: underline;
+            text-decoration: underline;
         }
-
     </style>
 </head>
 
 <body>
     <div>
         <div class="topnav">
-            <a class="active" href="">Home</a>
+            <a class="active" href="/Web-curriculum/index.html">Home</a>
             <div class="topnav-right">
                 <a href="#contact">Contact</a>
-                <a href="#about">About me</a>
+                <a href="/Web-curriculum/AboutMe.html">About me</a>
             </div>
         </div>
     </div>
@@ -120,35 +124,39 @@
     <br><br><br>
 
     <div class="flex">
-        <img src="/Web-curriculum/Images/mykoportfolio.png" style="height: fit-content; border-radius: 0%; border: 2px solid #000000" alt="Logo MyKo's Portfolio" width="30%">
+        <img src="/Web-curriculum/Images/mykoportfolio.png"
+            style="height: fit-content; border-radius: 0%; border: 2px solid #000000" alt="Logo MyKo's Portfolio"
+            width="30%">
     </div>
 
     <br><br><br>
-    
+
     <div id="aba">
         <p>
-        Olá! seja bem seja bem vindo ao portfólio de Maykon Fonseca, ou MyKo, 
-        escolha como preferir.
+            Olá! seja bem seja bem vindo ao portfólio de Maykon Fonseca, ou MyKo,
+            escolha como preferir.
         </p>
         <p>
-        Esta página irá conter detalhes sobre minha história, dentro dela se 
-        incluindo: carreira formativa, capacidades sociais, habilidades pessoais,
-        objetivo formativo e pretenção de expêriencia profissional e outras 
-        informações.
+            Esta página irá conter detalhes sobre minha história, dentro dela se
+            incluindo: carreira formativa, capacidades sociais, habilidades pessoais,
+            objetivo formativo e pretenção de expêriencia profissional e outras
+            informações.
         </p>
         <p>
-        Para entrar em contato, acesse a aba "Contact me" para mais informações.
+            Para entrar em contato, acesse a aba "Contact me" para mais informações.
         </p>
     </div>
-    
+
     <footer>
         <p>
             Todos os direitos reservados. &copy;Maykon Fonseca 2023
         </p>
         <p>
-            <a href="default.asp"><img src="/Web-curriculum/Images/githublogo.png" alt="HTML tutorial" style="width: 40px;height:42px;"></a>
+            <a href="https://github.com/MykoSF"><img src="/Web-curriculum/Images/githublogo.png" alt="HTML tutorial"
+                    style="width: 40px;height:42px;"></a>
         </p>
     </footer>
-    
+
 </body>
+
 </html>
